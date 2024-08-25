@@ -8,7 +8,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        litia: ['"Litia One"', 'sans-serif'], // Add custom font here
+        lilita: ['Lilita One', 'cursive'],
+        comic: ['"Comic Sans MS"', 'cursive'],
       },
     },
   },
