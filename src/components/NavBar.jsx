@@ -11,8 +11,10 @@ const NavBar = () => {
                     GOOD MORNING , DHIRAJ MOHATA
                 </h2>
             </div>
-            <div className="flex-none ">
-                <button className="txt-xl sm:text-4xl font-lilita border-2 rounded-xl shadow-lg px-4 py-3 border-gray-600 hover:border-b-8 hover:border-r-8 hover:bg-gray-300 ">GENERATE</button>
+            <div className="flex-none">
+                <button className="text-xl sm:text-4xl font-lilita border-2 rounded-xl shadow-lg px-4 py-3 border-gray-600 bg-gray-200 hover:bg-gray-300 hover:border-gray-800 transform hover:scale-105 hover:shadow-2xl transition-transform duration-300 ease-in-out">
+                    GENERATE
+                </button>
             </div>
         </div>
     )

@@ -6,7 +6,10 @@ import { useNavigate } from 'react-router-dom';
 const SignInPage = () => {
   return (
     <div className="flex items-center justify-center min-h-screen bg-gray-100">
-      <SignIn redirectUrl={'/dashboard'} />
+      <SignIn
+        afterSignInUrl="/dashboard"
+        onSuccess={() => navigate('/dashboard')}
+      />
       {/* </div> */}
     </div>
   );
