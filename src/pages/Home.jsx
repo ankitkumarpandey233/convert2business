@@ -12,7 +12,7 @@ const Home = () => {
         <section className="h-screen flex flex-col items-center justify-center overflow-hidden">
             <div className="max-w-screen-xl mx-auto px-4 py-28 gap-12 text-[#333] md:px-8">
                 <div className="space-y-5 max-w-4xl mx-auto text-center">
-                    <h1 className="text-2xl text-indigo-600 font-medium font-lilita ">
+                    <h1 className="text-3xl text-indigo-600 font-medium font-lilita ">
                         got an idea convert it
                     </h1>
                     <h2 className="text-4xl sm:text-6xl lg:text-8xl font-lilita mb-1 sm:mb-2 text-gray-800">
